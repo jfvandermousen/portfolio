@@ -4,11 +4,8 @@
 @tailwind utilities;
 
 *{
-  margin: 0;
   font-family: 'Roboto Mono', monospace;
   color: rgb(253, 253, 253);
-}
-#root {
   background-color:  #0e1212;
 }
 
