@@ -1,24 +1,40 @@
-import About from "./components/About";
 import Header from "./components/Header";
-import Works from "./components/Works";
-// import {
- // BrowserRouter as Router,
-  // Switch,
-  // Route,
-  // Link
-// } from "react-router-dom"; 
+import Contact from "./components/Contact";
+import Home from './components/Home';
+import Projects from './components/Projects';
+import Menu from "./components/Menu";
+import {
+ BrowserRouter as Router,
+ Switch,
+ Route
+ } from "react-router-dom"; 
 
 
 
 function App() {
   return (
-    <Router>
+
     <div className="container mx-auto px-8 pt-8">
-      <Header/>
-      <About />
-      < Works className="mt-8" /> 
+      
+      <Router>
+      <Header />
+      <Switch>
+        <Route exact path= "/">
+          <Home />
+        </Route>
+        <Route exact path= "/menu">
+          <Menu />
+        </Route>
+        <Route exact path="/projects">
+          <Projects  />
+        </Route>
+        <Route exact path="/contact">
+          <Contact />
+        </Route>
+      </Switch>
+      </Router>
     </div>
-  </Router >
+
   );
 }
 

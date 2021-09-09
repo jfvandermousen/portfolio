@@ -10,7 +10,7 @@ export default function Works() {
           <div className="flex flex-col w-full mb-20">
             <CodeIcon className="mx-auto inline-block w-10 mb-4" />
             <h1 className="sm:text-4xl text-5xl font-medium title-font mb-4 text-white">
-              Apps I've Built
+              What I've Built
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
               Some of my projects :
@@ -19,8 +19,9 @@ export default function Works() {
           <div className="flex flex-wrap -m-4">
             {projects.map((project) => (
               <a
-                href={project.link}
-                key={project.image}
+                href={project.link} target="_blank"
+                rel="noreferrer"
+                key={project.id}
                 className="sm:w-1/2 w-100 p-4">
                 <div className="flex relative">
                   <img

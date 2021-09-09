@@ -2,22 +2,24 @@
 
 export const projects = [
     {
-      title: "Travel Map",
+      id: 1,
+      title: "Pinning Travel Map",
       subtitle: "MERN Stack",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Map pinning travel map app using React hooks, Mapbox, Express, and MongoDB. you can pin your location and share your reviews with other users.",
         image: "./react.png",
-      link: "https://reactbootcamp.com",
+      link: "",
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      id: 2,
+      title: "RegALE",
+      subtitle: "Wordpress",
+      description: "Wordpress website with custom child theme. Use of Genesis framework and Elementor for client ",
         image: "./react.png",
-      link: "https://reedbarger.com",
+      link: "https://regalenetwork.eu",
     },
     {
+      id: 3,
       title: "DevChat",
       subtitle: "React and Firebase",
       description:
@@ -26,6 +28,7 @@ export const projects = [
       link: "https://jsbootcamp.com",
     },
     {
+      id: 4,
       title: "Epic Todo App",
       subtitle: "React Hooks",
       description:
