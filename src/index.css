@@ -38,9 +38,17 @@ h2 {
   margin-bottom: 1em;
 
 }
-h3, .nav-overlay {
+h3, .nav-overlay, .form-lab {
   font-weight: 600;
   color: #99c8ff;
+  
+}
+.bg-btn {
+  background-color: #99c8ff;
+}
+.form-input {
+  font-weight: 400;
+  color: black;
   
 }
 p {
