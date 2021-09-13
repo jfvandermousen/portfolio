@@ -7,7 +7,7 @@ export const projects = [
       subtitle: "MERN Stack",
       description:
         "Map pinning travel map app using React hooks, Mapbox, Express, and MongoDB. you can pin your location and share your reviews with other users.",
-        image: "./react.png",
+      image: "./img/react.png",
       link: "",
     },
     {
@@ -15,17 +15,17 @@ export const projects = [
       title: "RegALE",
       subtitle: "Wordpress",
       description: "Wordpress website with custom child theme. Use of Genesis framework and Elementor for client ",
-        image: "./react.png",
+        image: "./img/react.png",
       link: "https://regalenetwork.eu",
     },
     {
       id: 3,
-      title: "DevChat",
-      subtitle: "React and Firebase",
+      title: "Bookmark Manager",
+      subtitle: "Bookmark Manager",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./react.png",
-      link: "https://jsbootcamp.com",
+      image: "./img/bookmark.JPG",
+      link: "https://bookmark-manager-jf.herokuapp.com",
     },
     {
       id: 4,
@@ -33,7 +33,7 @@ export const projects = [
       subtitle: "React Hooks",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-       image: "./react.png",
+       image: "./img/react.png",
       link: "https://pythonbootcamp.com",
     },
   ];

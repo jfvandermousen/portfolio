@@ -1,12 +1,28 @@
-import React from 'react'
-import pacman from '../img/pacman.gif';
+import React, { useState } from "react";
 
-export default function Contact() {
-    return (
-        <div>
-            <h3 className="text-2xl my-4">You can join me at 0485/75.12.16 </h3>
-            <p className="text-2xl mb-4">I am available between 9:05 am and 9:08 am</p>
-            <img className="mt-8" src={pacman} alt="loading..." />
-        </div>
-    )
+export default function Contact(props) {
+  const [name, setName] = useState("");
+  
+  const handleSubmit = (evt) => {
+      evt.preventDefault();
+      alert(`Submitting Name ${name}`)
+  }
+  return (
+
+    <div>
+        <p>You can reach me by :</p>
+    <form onSubmit={handleSubmit}>
+      <label>
+        Frirst Name:
+        <input
+          type="text"
+          value={name}
+          onChange={e => setName(e.target.value)}
+        />
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+
+    </div>
+  );
 }

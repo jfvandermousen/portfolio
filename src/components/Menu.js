@@ -13,10 +13,9 @@ export default function Menu() {
         menu =  
         <Fade delay={1000} >
         <div onClick={()=>setShowMenu(!showMenu)} className="fixed bg-black h-full w-full top-0 left-0 z-50 flex flex-col justify-center items-center" >
-            <Link to="/"><div className="py-4" onClick={()=>setShowMenu(!showMenu)}> <b className="text-4xl">Home</b></div></Link>
-            <Link to="/projects" ><div className="py-4" onClick={()=>setShowMenu(!showMenu)}><b className="text-4xl ">Projects</b></div></Link>
-            <Link to="/contact" ><div className="py-4" onClick={()=>setShowMenu(!showMenu)}><b className="text-4xl ">Contact</b></div></Link>
-
+            <Link to="/"><div className="p-4" onClick={()=>setShowMenu(!showMenu)}> <p className="nav-overlay text-4xl">Home</p></div></Link>
+            <Link to="/projects" ><div className="p-4" onClick={()=>setShowMenu(!showMenu)}><p className="nav-overlay text-4xl ">Projects</p></div></Link>
+            <Link to="/contact" ><div className="p-4" onClick={()=>setShowMenu(!showMenu)}><p className=" nav-overlay text-4xl ">Contact</p></div></Link>
         </div>
         </Fade>
 

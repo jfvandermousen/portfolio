@@ -33,9 +33,15 @@ LOGO BIG SIZE */
     height: 100vh;
 }
 
-h2, b {
+h2 {
   color: #99c8ff;
   margin-bottom: 1em;
+
+}
+h3, .nav-overlay {
+  font-weight: 600;
+  color: #99c8ff;
+  
 }
 p {
   color:#ffffff;
@@ -49,13 +55,13 @@ p {
   float: right;
 
 }
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 584px) {
   .hamburger-react {
     display: none;
   }
 
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 584px) {
 
   .main-nav {
     display: none;
@@ -63,6 +69,34 @@ p {
 
 }
 
+li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 15px 0;
+}
+b {
+  color: #99c8ff;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 15px 15px;
 
-
+}
+b:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+b:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
 
