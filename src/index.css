@@ -55,6 +55,9 @@ p {
   float: right;
 
 }
+form {
+  width: 350px;
+}
 @media screen and (min-width: 584px) {
   .hamburger-react {
     display: none;

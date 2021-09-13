@@ -18,7 +18,7 @@ export default function About() {
                     showCursor: false,
                     startDelay: 3200,
                     disableBackTyping: true,
-                    strings: ["I am actually following a web development bootcamp @ Becode Brussels and looking for an internship as a junior Front-end developer in a creative company to improve the skills acquired during this training."]
+                    strings: ["I am actually following a web development bootcamp @ Becode Brussels and looking for an internship as a junior Front-end developer in a creative company to improve my skills."]
                 });
 
             });

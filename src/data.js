@@ -24,7 +24,7 @@ export const projects = [
       subtitle: "Bookmark Manager",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./img/bookmark.JPG",
+      image: "./img/react.png",
       link: "https://bookmark-manager-jf.herokuapp.com",
     },
     {
