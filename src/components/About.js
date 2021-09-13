@@ -18,7 +18,7 @@ export default function About() {
                     showCursor: false,
                     startDelay: 3200,
                     disableBackTyping: true,
-                    strings: ["I naturally oriented myself towards Front-end development by following a course @ Becode Brussels."]
+                    strings: ["I am actually following a web development bootcamp @ Becode Brussels and looking for an internship as a junior Front-end developer from November 2021 to january 2022 in a creative company to put into practice and improve the skills acquired during this training."]
                 });
 
             });
