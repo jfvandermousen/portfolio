@@ -16,7 +16,7 @@ export default function About() {
             const myElement = document.querySelector("#about");
             init(myElement, {
                     showCursor: false,
-                    typeSpeed:  75,
+                    typeSpeed:  60,
                     startDelay: 1800,
                     loop:  false,
                     disableBackTyping: true,

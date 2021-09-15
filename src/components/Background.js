@@ -7,23 +7,27 @@ export default function Background() {
             <Particles className="particles"
             params={{
                 particles: {
-                    "color": {
+                    color: {
                         "value": "#ffffff"
                       },
-                      "opacity": {
-                        "value": 1,
-                        "random": false,
+                      opacity: {
+                        "value": 0.5,
+                        "random": false
+                      },
                         "anim": {
                           "enable": false,
-                          "speed": 0.5,
+                          "speed": 2,
                           "opacity_min": 0.1,
-                          "sync": false
-                        }
-                },"line_linked": {
+                          "sync": false           
+                },
+                move: {
+                  speed: 1
+              },
+                "line_linked": {
                     "enable": true,
                     "distance": 150,
                     "color": "#ffffff",
-                    "opacity": 0.4,
+                    "opacity": 0.2,
                     "width": 1.5
                   },
                   

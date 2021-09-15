@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { send } from 'emailjs-com';
-import Swal from 'sweetalert2'
-import github from '../github.png';
+import git from '../git.png';
 import linkdn from '../linkdn.png';
+import { useAlert } from 'react-alert'
 
 export default function Contact(props) {
   const [toSend, setToSend] = useState({
@@ -22,25 +22,18 @@ export default function Contact(props) {
     )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
-        Swal.fire({
-          icon: 'success',
-          title: 'Message Sent Successfully'
-        })
       })
       .catch((err) => {
         console.log('FAILED...', err);
-        Swal.fire({
-          icon: 'error',
-          title: 'Ooops, something went wrong',
-          text: "GGGGGG",
-        })
       });
-      e.target.reset()
+      e.target.reset();
   };
 
   const handleChange = (e) => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
+
+  const alert = useAlert()
   return (
 
     <div>
@@ -62,7 +55,7 @@ export default function Contact(props) {
               <div className="flex flex-row ">
                 <div>
                     <a href="https://github.com/jfvandermousen">
-                      <img className="git m-2"  src={github} alt="github"/>
+                      <img className="git m-2"  src={git} alt="github"/>
                     </a>
               </div>
               <div>
@@ -106,9 +99,12 @@ export default function Contact(props) {
               onChange={handleChange}
               />
           </div>
-          <button className="w-full mt-8 bg-btn  text-white font-bold p-4 "
+          <button onClick={() => {
+          alert.show(<div style={{ color: '#99c8ff',fontSize:'12px' }}>Thanks for contacting me! I will be in touch with you shortly.</div>)
+      }}   className="w-full mt-8 bg-btn  text-white font-bold p-4 "
           type="submit">
   SEND
+
 </button>
     </form>
     </div>
