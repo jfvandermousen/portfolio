@@ -27,7 +27,7 @@ export default function Header() {
                 <Link to="/projects" ><li className="px-4"><b className=" ar text-xl ">Projects</b></li></Link>
                 <Link to="/contact" ><li className="px-4"><b className="ar text-xl ">Contact</b></li></Link>
             </ul> */}
-                        <ul className="main-nav flex flex-row">
+                        <ul className=" main-nav flex flex-row">
                                 <Link to="/"><li><b className="text-xl" href="#">Home</b></li></Link> 
                                 <Link to="/projects" ><li><b  className="text-xl" href="#">Projects</b></li></Link> 
                                 <Link to="/contact" ><li><b  className="text-xl"href="#">Contact</b></li></Link> 

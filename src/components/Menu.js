@@ -22,8 +22,8 @@ export default function Menu() {
     }
 
     return (
-        <div>
-        <div className="navBar flex flex-row justify-end" >
+        <div className="above">
+        <div className=" navBar flex flex-row justify-end" >
             <Hamburger  duration={1} onToggle={()=>setShowMenu(!showMenu)} />
         </div>
         {menu}
