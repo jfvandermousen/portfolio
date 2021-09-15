@@ -33,7 +33,9 @@ LOGO BIG SIZE */
   width: auto;
 } 
 
-
+.works {
+  margin-bottom: 1rem;
+}
 /* .container {
     height: 100vh;
     padding: 2rem;
