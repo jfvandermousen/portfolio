@@ -6,7 +6,7 @@ export const projects = [
       title: "Pinning Travel Map",
       subtitle: "MERN Stack",
       description:
-        "Map pinning travel map app using React hooks, Mapbox, Express, and MongoDB. you can pin your location and share your reviews with other users.",
+        "Map pinning travel map app using React hooks, Mapbox, Express, and MongoDB. You can pin your location and share your reviews with other users.",
       image: "./img/react.png",
       link: "",
     },
