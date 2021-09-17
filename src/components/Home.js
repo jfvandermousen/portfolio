@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <div>
             <About />
-            <Fade bottom delay={10000}>
+            <Fade bottom delay={11000}>
             <Works className="mt-8" /> 
             </Fade>
         </div>

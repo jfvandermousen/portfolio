@@ -5,6 +5,7 @@ export const projects = [
       id: 1,
       title: "Pinning Travel Map",
       subtitle: "MERN Stack",
+      catgeory :"WebDev",
       description:
         "Map pinning travel map app using React hooks, Mapbox, Express, and MongoDB. You can pin your location and share your reviews with other users.",
       image: "./img/react.png",
@@ -14,27 +15,30 @@ export const projects = [
       id: 2,
       title: "RegALE",
       subtitle: "Wordpress",
+      catgeory :"wordpress",
       description: "Wordpress website with custom child theme. Use of Genesis framework and Elementor for client ",
-        image: "./img/react.png",
+      image: "./img/regale.jpg",
       link: "https://regalenetwork.eu",
     },
     {
       id: 3,
       title: "Bookmark Manager",
       subtitle: "Bookmark Manager",
+      catgeory :"webdev",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./img/react.png",
+      image: "./img/bookmark-manager.jpg",
       link: "https://bookmark-manager-jf.herokuapp.com",
     },
     {
       id: 4,
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "The open",
+      subtitle: "Wordpress",
+      catgeory :"wordpress",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-       image: "./img/react.png",
-      link: "https://pythonbootcamp.com",
+        "Woocommerce website with custom child theme. Use of Genesis framework and Elementor for client",
+       image: "./img/the-open.jpg",
+      link: "",
     },
   ];
 
