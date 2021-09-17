@@ -11,23 +11,23 @@ export default function Background() {
                         "value": "#ffffff"
                       },
                       opacity: {
-                        "value": 0.5,
+                        "value": 1,
                         "random": false
                       },
                         "anim": {
                           "enable": false,
                           "speed": 2,
-                          "opacity_min": 0.1,
+                          "opacity_min": 0.5,
                           "sync": false           
                 },
                 move: {
                   speed: 1
               },
-                "line_linked": {
+                line_linked: {
                     "enable": true,
                     "distance": 150,
                     "color": "#ffffff",
-                    "opacity": 0.2,
+                    "opacity": 0.8,
                     "width": 1.5
                   },
                   
