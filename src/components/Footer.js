@@ -10,8 +10,8 @@ export default function Footer() {
             </div>
             <div className="social-medias">
                 <ul>
-                    <li><b><a href="https://www.linkedin.com/in/jean-francois-vandermousen/" target="_blank">LinkedIn</a></b></li>
-                    <li><b><a href="https://github.com/jfvandermousen" target="_blank">Github</a></b></li>       
+                    <li><b><a href="https://www.linkedin.com/in/jean-francois-vandermousen/" target="_blank" rel="noreferrer">LinkedIn</a></b></li>
+                    <li><b><a href="https://github.com/jfvandermousen" target="_blank" rel="noreferrer">Github</a></b></li>       
             </ul>
             </div>
             <p className="mt-4">@2021 Jf Vandermousen</p>
