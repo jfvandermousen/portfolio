@@ -1,8 +1,8 @@
-# Technology
- REACT APP
+# Technologies used
+ REACT APP / react router dom / Gsap /
 
 # CSS FRAMEWORK
 Tailwind 
 
-# portfolio
-Projects to show to apply.
+# object
+Creation of a portfolio with animations to present myself and some works.
