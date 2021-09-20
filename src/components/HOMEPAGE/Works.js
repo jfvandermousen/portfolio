@@ -12,7 +12,7 @@ export default function Works() {
             <h1 className="sm:text-4xl text-5xl font-medium title-font mb-4 text-white">
               What I've Built
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base mb-4">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base mb-20">
               Some of my projects :
             </p>
           </div>

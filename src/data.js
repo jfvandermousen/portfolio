@@ -23,7 +23,7 @@ export const projects = [
     {
       id: 3,
       title: "Bookmark Manager",
-      subtitle: "Bookmark Manager",
+      subtitle: "APP",
       catgeory :"webdev",
       description:
         "Bookmark manager builded with Node, Express, Sqlite, CSS Grid and deploy on Heroku. ",
@@ -35,6 +35,16 @@ export const projects = [
       title: "The open",
       subtitle: "Wordpress",
       catgeory :"wordpress",
+      description:
+        "Woocommerce website with custom child theme. Use of Genesis framework and Elementor for client",
+       image: "./img/the-open.jpg",
+      link: "",
+    },
+    {
+      id: 5,
+      title: "ImmoEliza",
+      subtitle: "Prediction API",
+      catgeory :"APP",
       description:
         "Woocommerce website with custom child theme. Use of Genesis framework and Elementor for client",
        image: "./img/the-open.jpg",

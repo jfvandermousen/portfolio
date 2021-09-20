@@ -10,12 +10,13 @@ import {
  } from "react-router-dom"; 
  import Contact from "./components/Contact";
  import Background from "./components/Background";
+// import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <div>  
     <Background  className="bg"/>
-    <div className="container mx-auto px-8 pt-8">
+      <div className="container mx-auto px-8 pt-8">
       <Router>
       <Header />
       <Switch>
@@ -33,7 +34,7 @@ function App() {
         </Route>
       </Switch>
       </Router>
-
+      
     </div>
     </div>
 

@@ -6,12 +6,16 @@
 *{
   font-family: 'Roboto Mono', monospace;
   color: rgb(253, 253, 253);
-  
+
 }
 html {
   background-color:  #0e1212;
-}
 
+
+}
+.container {
+  overflow-y: hidden;
+}
 
 
 /* test anima form */
@@ -36,16 +40,34 @@ width: fit-content;
   height: 80px;
   width: auto;
 } 
+.logo-footer img {
+  height: 80px;
+  width: auto;
+} 
+
+
+.footer {
+position: absolute;
+left:0;
+right:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid #ffffff;
+}
+
+.social-medias {
+  display: inline-block
+}
+.social-medias >h3 {
+  padding: 10px;
+}
 
 .works {
   margin-bottom: 1rem;
 }
-/* .container {
-    height: 100vh;
-    padding: 2rem;
-    width: 100%;
-    margin: 0 auto;
-} */
+
 
 h2 {
   color: #99c8ff;
@@ -77,9 +99,6 @@ p {
   float: right;
 
 }
-/* .particles {
-  height: 100vh;
-} */
 
 canvas.tsparticles-canvas-el {
   position: absolute;
@@ -88,6 +107,7 @@ canvas.tsparticles-canvas-el {
 .bg {
   height: 100vh;
 }
+
 .project-h {
   height: 300px;
 }
@@ -114,7 +134,11 @@ canvas.tsparticles-canvas-el {
   }
 
 }
-
+.social-medias li {
+  display: table-cell; 
+  position: relative; 
+  padding:  0;
+}
 li { 
   display: table-cell; 
   position: relative; 
@@ -145,6 +169,8 @@ b:hover:after {
   width: 100%; 
   left: 0; 
 }
+
+
 
 @media screen and (max-width: 1024px) {
 

@@ -6,8 +6,8 @@ import {Link} from "react-router-dom";
 
 export default function Menu() {
     const [showMenu,setShowMenu] = useState(false);
-
     let menu
+    
 
     if(showMenu){
         menu =  
@@ -24,7 +24,7 @@ export default function Menu() {
     return (
         <div className="above">
         <div className=" navBar flex flex-row justify-end" >
-            <Hamburger  duration={1} onToggle={()=>setShowMenu(!showMenu)} />
+            <Hamburger   duration={1} onToggle={()=>setShowMenu(!showMenu)  }  />
         </div>
         {menu}
         </div>

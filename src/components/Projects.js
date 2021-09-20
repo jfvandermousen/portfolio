@@ -1,6 +1,8 @@
 import React from 'react'
 
 import { projects } from '../data';
+import Footer from './Footer';
+
 
 export default function Projects() {
     return (
@@ -9,7 +11,7 @@ export default function Projects() {
     <div className="container px-5 py-10 mx-auto text-center lg:px-40">
       <div className="flex flex-col w-full mb-0 md:mb-20">
 
-        <h1 className="sm:text-4xl text-5xl font-medium title-font mb-4 text-white">
+        <h1 className="text-4xl  font-medium title-font mb-8 text-white">
           All projects
         </h1>
 
@@ -42,7 +44,7 @@ export default function Projects() {
       </div>
     </div>
   </section>
-        
+        <Footer />
     </div>
     )
 }
