@@ -20,7 +20,7 @@ export default function About() {
                     startDelay: 1800,
                     loop:  false,
                     disableBackTyping: true,
-                    strings: ["I am currently following a web development bootcamp @ Becode Brussels and looking for an internship as a junior Front-end developer in a creative company to improve my skills."]
+                    strings: ["I am currently following a web development bootcamp @ Becode Brussels and looking for an internship as a junior Frontend Developer in a creative company to improve my skills."]
                 });
 
             });
@@ -33,7 +33,7 @@ export default function About() {
             <div className="intro " > 
             {/* ref={(el) => (intro = el)} */}
                 <h1 className="text-2xl">Jf Vandermousen</h1>
-                <h2>Creative frontend developer</h2>
+                <h2>Creative Frontend Developer</h2>
             </div>
         </section>
         <section className="about mb-4">

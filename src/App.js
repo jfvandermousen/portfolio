@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-// import Contact from "./components/Contact";
+
 import Home from './components/Home';
 import Projects from './components/Projects';
 import Menu from "./components/Menu";
@@ -10,6 +10,7 @@ import {
  } from "react-router-dom"; 
  import Contact from "./components/Contact";
  import Background from "./components/Background";
+// import ContactMe from "./components/ContactMe";
 
 
 
@@ -21,7 +22,7 @@ import {
 function App() {
   return (
     <div>
-    <Background />
+    <Background  className="bg"/>
     <div className="container mx-auto px-8 pt-8">
       <Router>
       <Header />
@@ -40,6 +41,7 @@ function App() {
         </Route>
       </Switch>
       </Router>
+
     </div>
     </div>
 

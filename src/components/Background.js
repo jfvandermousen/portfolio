@@ -6,6 +6,7 @@ export default function Background() {
         <div>
             <Particles className="particles"
             params={{
+              
                 particles: {
                     color: {
                         "value": "#ffffff"

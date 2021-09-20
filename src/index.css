@@ -73,9 +73,16 @@ p {
   float: right;
 
 }
+/* .particles {
+  height: 100vh;
+} */
+
 canvas.tsparticles-canvas-el {
   position: absolute;
   z-index: -25;
+}
+.bg {
+  height: 100vh;
 }
 .project-h {
   height: 300px;

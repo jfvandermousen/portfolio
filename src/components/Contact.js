@@ -1,10 +1,15 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
 import { send } from 'emailjs-com';
 import git from '../git.png';
 import linkdn from '../linkdn.png';
 import { useAlert } from 'react-alert'
 
+
 export default function Contact(props) {
+
+
+
+
   const [toSend, setToSend] = useState({
     from_name: '',
     to_name: '',
@@ -13,27 +18,40 @@ export default function Contact(props) {
   });
 
   const onSubmit = (e) => {
+    
     e.preventDefault();
+
+    alert.show(<div   style={{ color: '#99c8ff',fontSize:'12px' } }>Thanks for contacting me! I will be in touch with you shortly.</div>);
+    
     send(
       'service_7kfojnv',
       'template_svdwo9m',
       toSend,
-      'user_7C0DFfICeBZunE5mWt757'
+      'user_7C0DFfICeBZunE5mWt757', 
     )
-      .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
+    .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);      
+
+
       })
       .catch((err) => {
         console.log('FAILED...', err);
+        alert.show(<div style={{ color: '#99c8ff',fontSize:'12px' }}>Something went wrong!</div>)
       });
-      e.target.reset();
-  };
+      setTimeout(function(){
+        window.location.href = "http://localhost:3000/";
+     }, 5000);
 
+  }
+
+
+  
   const handleChange = (e) => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
 
-  const alert = useAlert()
+  const alert = useAlert();
+
   return (
 
     <div>
@@ -69,39 +87,42 @@ export default function Contact(props) {
         <div className="window w-full mb-4 lg:w-7/12 ">
       <form className="flex flex-col" onSubmit={onSubmit}>
           <div className=" mr-2 flex flex-col">
-            <span className="uppercase text-sm form-lab font-bold w-full">Full Name</span>
+            <span className="uppercase text-sm form-lab font-bold w-full">Full Name*</span>
             <input className="md:w-full  bg-gray-100 form-input mt-2  p-3 focus:outline-none focus:shadow-outline"
               type="text"
               name='from_name'
               placeholder='Your name'
               value={toSend.from_name}
+              required
+              max="30"
               onChange={handleChange}/>
             </div>
             
 
           <div className="mt-8 mr-2 flex flex-col">
-            <span className="uppercase text-sm form-lab font-bold">Email</span>
+            <span className="uppercase text-sm form-lab font-bold">Email*</span>
             <input className=" md:w-full    bg-gray-100 form-input mt-2  p-3 focus:outline-none focus:shadow-outline"
                   type='email'
                   name='reply_to'
                   placeholder='Your email'
                   value={toSend.reply_to}
+                  required
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                   onChange={handleChange}/>
           </div>
          
           <div className="mt-8 mr-2 flex flex-col">
-            <span className="uppercase text-sm form-lab font-bold">Message</span>
+            <span className="uppercase text-sm form-lab font-bold">Message*</span>
             <textarea className="md:w-full    bg-gray-100 form-input mt-2  p-3  focus:outline-none focus:shadow-outline"
               type='text'
               name='message'
               placeholder='Your message'
+              required
               value={toSend.message}
               onChange={handleChange}
               />
           </div>
-          <button onClick={() => {
-          alert.show(<div style={{ color: '#99c8ff',fontSize:'12px' }}>Thanks for contacting me! I will be in touch with you shortly.</div>)
-      }}   className="w-full mt-8 bg-btn  text-white font-bold p-4 "
+          <button  className="w-full mt-8 bg-btn  text-white font-bold p-4 "
           type="submit">
   SEND
 
@@ -110,5 +131,6 @@ export default function Contact(props) {
     </div>
     </div>
     </div>
-  );
+  )
 }
+
