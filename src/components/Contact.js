@@ -87,7 +87,9 @@ export default function Contact(props) {
         <div className="window w-full mb-4 lg:w-7/12 ">
       <form className="flex flex-col" onSubmit={onSubmit}>
           <div className=" mr-2 flex flex-col">
+            <label className="label">
             <span className="uppercase text-sm form-lab font-bold w-full">Full Name*</span>
+            </label>
             <input className="md:w-full  bg-gray-100 form-input mt-2  p-3 focus:outline-none focus:shadow-outline"
               type="text"
               name='from_name'
@@ -100,7 +102,9 @@ export default function Contact(props) {
             
 
           <div className="mt-8 mr-2 flex flex-col">
+          <label className="label"> 
             <span className="uppercase text-sm form-lab font-bold">Email*</span>
+            </label>
             <input className=" md:w-full    bg-gray-100 form-input mt-2  p-3 focus:outline-none focus:shadow-outline"
                   type='email'
                   name='reply_to'
@@ -112,7 +116,9 @@ export default function Contact(props) {
           </div>
          
           <div className="mt-8 mr-2 flex flex-col">
+          <label className="label"> 
             <span className="uppercase text-sm form-lab font-bold">Message*</span>
+            </label>
             <textarea className="md:w-full    bg-gray-100 form-input mt-2  p-3  focus:outline-none focus:shadow-outline"
               type='text'
               name='message'

@@ -14,8 +14,15 @@ html {
 
 
 
+/* test anima form */
 
 
+input:focus,textarea:focus {
+  /* outline: none !important; */
+  border:3px solid #99c8ff;
+  transition: 0.2s ease all;
+  /* box-shadow: 0 0 10px #99c8ff; */
+}
 
 
 /* 
