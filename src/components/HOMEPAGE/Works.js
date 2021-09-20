@@ -1,6 +1,6 @@
 import React from 'react';
 import { CodeIcon } from "@heroicons/react/solid";
-import { projects } from '../data';
+import { projects } from '../../data';
 
 export default function Works() {
     return (
@@ -12,7 +12,7 @@ export default function Works() {
             <h1 className="sm:text-4xl text-5xl font-medium title-font mb-4 text-white">
               What I've Built
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base mb-4">
               Some of my projects :
             </p>
           </div>
@@ -23,20 +23,20 @@ export default function Works() {
                 rel="noreferrer"
                 key={project.id}
                 className="sm:w-1/2 w-100 p-4">
-                <div className="flex relative">
+                <div className=" flex relative">
                   <img
                     alt="gallery"
                     className="absolute inset-0 project-h w-full  object-contain object-center"
                     src={project.image}
                   />
-                  <div className="px-4 py-10 relative z-10 project-h border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                    <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                  <div className=" project-h  px-4 py-5 relative z-10 project-h border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                    <h2 className="tracking-widest text-lg title-font font-medium text-green-400 mb-1">
                       {project.subtitle}
                     </h2>
-                    <h1 className="title-font text-lg font-medium text-white mb-3">
+                    <h1 className="title-font text-2xl font-medium text-white mb-3">
                       {project.title}
                     </h1>
-                    <p className="leading-relaxed">{project.description}</p>
+                    <p className="text-lg leading-relaxed">{project.description}</p>
                   </div>
                 </div>
               </a>

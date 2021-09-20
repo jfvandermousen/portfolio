@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 
-import Home from './components/Home';
+import Home from './components/HOMEPAGE/Home';
 import Projects from './components/Projects';
 import Menu from "./components/Menu";
 import {
@@ -10,14 +10,6 @@ import {
  } from "react-router-dom"; 
  import Contact from "./components/Contact";
  import Background from "./components/Background";
-// import ContactMe from "./components/ContactMe";
-
-
-
-
-
-
-
 
 function App() {
   return (

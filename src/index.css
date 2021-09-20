@@ -22,16 +22,14 @@ input:focus,textarea:focus {
   border:3px solid #99c8ff;
   transition: 0.2s ease all;
 }
-
-
-/* 
-
-.logo {
-  opacity: 0.3;
+textarea {
+  min-height: 44px;
 }
 
+.card {
+width: fit-content;
+}
 
-LOGO BIG SIZE */
 
 
 .logo img {

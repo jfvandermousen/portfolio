@@ -8,8 +8,8 @@ export const projects = [
       catgeory :"WebDev",
       description:
         "Map pinning travel map app using React hooks, Mapbox, Express, and MongoDB. You can pin your location and share your reviews with other users.",
-      image: "./img/react.png",
-      link: "",
+      image: "./img/pinmap.png",
+      link: "https://pin-travel-map.herokuapp.com/",
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ export const projects = [
       subtitle: "Bookmark Manager",
       catgeory :"webdev",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Bookmark manager builded with Node, Express, Sqlite, CSS Grid and deploy on Heroku. ",
       image: "./img/bookmark-manager.jpg",
       link: "https://bookmark-manager-jf.herokuapp.com",
     },
