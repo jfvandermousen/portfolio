@@ -21,7 +21,7 @@ export default function Contact(props) {
     
     e.preventDefault();
 
-    alert.show(<div   style={{ color: '#99c8ff',fontSize:'12px' } }>Thanks for contacting me! I will be in touch with you shortly.</div>);
+    
     
     send(
       'service_7kfojnv',
@@ -30,7 +30,8 @@ export default function Contact(props) {
       'user_7C0DFfICeBZunE5mWt757', 
     )
     .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);      
+        console.log('SUCCESS!', response.status, response.text);
+        alert.show(<div   style={{ color: '#99c8ff',fontSize:'12px' } }>Thanks for contacting me! I will be in touch with you shortly.</div>);    
 
 
       })
