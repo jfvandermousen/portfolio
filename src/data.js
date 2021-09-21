@@ -13,13 +13,15 @@ export const projects = [
     },
     {
       id: 2,
-      title: "RegALE",
-      subtitle: "Wordpress",
-      catgeory :"wordpress",
-      description: "Wordpress website with custom child theme. Use of Genesis framework and Elementor for client ",
-      image: "./img/regale.jpg",
-      link: "https://regalenetwork.eu",
+      title: "ImmoEliza",
+      subtitle: "Prediction API",
+      catgeory :"APP",
+      description:
+        "Creation of a form with an API allowing to predict the price of a house. Project realized with the R&D/AI department of Becode",
+       image: "./img/immoeliza.png",
+      link: "https://immo-dev.netlify.app",
     },
+
     {
       id: 3,
       title: "Bookmark Manager",
@@ -42,14 +44,14 @@ export const projects = [
     },
     {
       id: 5,
-      title: "ImmoEliza",
-      subtitle: "Prediction API",
-      catgeory :"APP",
-      description:
-        "Woocommerce website with custom child theme. Use of Genesis framework and Elementor for client",
-       image: "./img/the-open.jpg",
-      link: "",
+      title: "RegALE",
+      subtitle: "Wordpress",
+      catgeory :"wordpress",
+      description: "Wordpress website with custom child theme. Use of Genesis framework and Elementor for client ",
+      image: "./img/regale.jpg",
+      link: "https://regalenetwork.eu",
     },
+
   ];
 
   export const skills = [

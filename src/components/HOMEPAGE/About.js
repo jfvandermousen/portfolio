@@ -17,7 +17,7 @@ export default function About() {
             init(myElement, {
                     showCursor: false,
                     typeSpeed:  60,
-                    startDelay: 1800,
+                    startDelay: 1500,
                     loop:  false,
                     disableBackTyping: true,
                     strings: ["I am currently following a web development bootcamp @ Becode Brussels and looking for an internship as a junior Frontend Developer in a creative company to improve my skills."]
