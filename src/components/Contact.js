@@ -73,12 +73,12 @@ export default function Contact(props) {
               </div>
               <div className="flex flex-row ">
                 <div>
-                    <a href="https://github.com/jfvandermousen">
+                    <a href="https://github.com/jfvandermousen" target="_blank">
                       <img className="git m-2"  src={git} alt="github"/>
                     </a>
               </div>
               <div>
-                  <a href="https://www.linkedin.com/in/jean-francois-vandermousen/">
+                  <a href="https://www.linkedin.com/in/jean-francois-vandermousen/" target="_blank">
                     <img className="linkdn m-2"  src={linkdn} alt="linkdn"/>
                   </a>
               </div>
