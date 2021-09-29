@@ -7,7 +7,7 @@ export const projects = [
       subtitle: "MERN Stack",
       catgeory :"WebDev",
       description:
-        "Map pinning travel map app using React hooks, Mapbox, Express, and MongoDB. You can pin your location and share your reviews with other users.",
+        "Map pinning travel map app using React hooks, Mapbox, Express, and MongoDB.",
       image: "./img/pinmap.png",
       link: "https://pin-travel-map.herokuapp.com/",
     },
@@ -34,6 +34,16 @@ export const projects = [
     },
     {
       id: 4,
+      title: "The Plug and Play",
+      subtitle: "Home page",
+      catgeory :"Html,CSS, Sass",
+      description:
+        "Home page visual in Html,CSS using Flexbox,Saas and material icons",
+       image: "",
+      link: "https://jfvandermousen.github.io/turlututu",
+    },
+    {
+      id: 5,
       title: "The open",
       subtitle: "Wordpress",
       catgeory :"wordpress",
@@ -43,7 +53,7 @@ export const projects = [
       link: "",
     },
     {
-      id: 5,
+      id: 6,
       title: "RegALE",
       subtitle: "Wordpress",
       catgeory :"wordpress",

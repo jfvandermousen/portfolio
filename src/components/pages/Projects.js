@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { projects } from '../data';
-import Footer from './Footer';
+import { projects } from '../../data';
+import Footer from '../Footer';
 
 
 export default function Projects() {

@@ -1,12 +1,13 @@
 import React, { useState} from "react";
 import { send } from 'emailjs-com';
-import git from '../git.png';
-import linkdn from '../linkdn.png';
+import git from './git.png';
+import linkdn from './linkdn.png';
 import { useAlert } from 'react-alert'
 
 
 export default function Contact(props) {
 
+  const alert = useAlert();
 
 
 
@@ -18,7 +19,7 @@ export default function Contact(props) {
   });
 
   const onSubmit = (e) => {
-    
+
     e.preventDefault();
 
     
@@ -31,7 +32,9 @@ export default function Contact(props) {
     )
     .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
-        alert.show(<div   style={{ color: '#99c8ff',fontSize:'12px' } }>Thanks for contacting me! I will be in touch with you shortly.</div>);    
+        alert.show(<div style={{ color: '#99c8ff',fontSize:'1.5em'} }>
+          Thanks for contacting me! I will be in touch with you shortly.
+          </div>);
 
 
       })
@@ -51,7 +54,6 @@ export default function Contact(props) {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
 
-  const alert = useAlert();
 
   return (
 
@@ -73,12 +75,12 @@ export default function Contact(props) {
               </div>
               <div className="flex flex-row ">
                 <div>
-                    <a href="https://github.com/jfvandermousen" target="_blank">
+                    <a href="https://github.com/jfvandermousen" target="_blank" rel="noreferrer">
                       <img className="git m-2"  src={git} alt="github"/>
                     </a>
               </div>
               <div>
-                  <a href="https://www.linkedin.com/in/jean-francois-vandermousen/" target="_blank">
+                  <a href="https://www.linkedin.com/in/jean-francois-vandermousen/" target="_blank" rel="noreferrer">
                     <img className="linkdn m-2"  src={linkdn} alt="linkdn"/>
                   </a>
               </div>

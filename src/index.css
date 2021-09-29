@@ -17,8 +17,9 @@ html {
   overflow-y: hidden;
 }
 
-
-/* test anima form */
+#__react-alert__ div div div {
+  width: auto !important;
+}
 
 
 input:focus,textarea:focus {
@@ -33,6 +34,11 @@ textarea {
 .card {
 width: fit-content;
 }
+.card-title {
+  margin-bottom: .75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 
 
 
@@ -43,6 +49,7 @@ width: fit-content;
 .logo-footer img {
   height: 80px;
   width: auto;
+  
 } 
 
 
@@ -50,13 +57,13 @@ width: fit-content;
 position: absolute;
 left:0;
 right:0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-top: 3px solid #ffffff;
+border-top: 3px solid #ffffff;
 }
-
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .social-medias {
   display: inline-block
 }
@@ -74,6 +81,7 @@ h2 {
   margin-bottom: 1em;
 
 }
+
 h3, .nav-overlay, .form-lab {
   font-weight: 600;
   color: #99c8ff;
@@ -172,11 +180,20 @@ b:hover:after {
 
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 624px) {
 
-  /* .two-windows {
+  .footer-wrap {
     display: flex;
     flex-direction: column;
-  } */
+    justify-content: space-between;
+    align-items: center;
+  }
 
+}
+
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
