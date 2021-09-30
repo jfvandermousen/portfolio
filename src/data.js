@@ -39,7 +39,7 @@ export const projects = [
       catgeory :"Html,CSS, Sass",
       description:
         "Home page visual in Html,CSS using Flexbox,Saas and material icons",
-       image: "",
+       image: "./img/plug.png",
       link: "https://jfvandermousen.github.io/turlututu",
     },
     {
