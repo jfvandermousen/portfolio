@@ -12,11 +12,11 @@ export default function Works() {
             <h1 className="sm:text-4xl text-5xl font-medium title-font mb-4 text-white">
               What I've Built
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base mb-20">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base mb-10">
               Some of my projects :
             </p>
           </div>
-          <div className="flex flex-wrap -m-4">
+          <div className="flex flex-wrap -my-4">
             {projects.map((project) => (
               <a
                 href={project.link} target="_blank"
@@ -26,7 +26,7 @@ export default function Works() {
                 <div className=" flex relative">
                   <img
                     alt="gallery"
-                    className="absolute inset-0 project-h w-full  object-contain object-center"
+                    className="absolute inset-0 project-h w-full  object-cover object-top"
                     src={project.image}
                   />
                   <div className=" project-h  px-4 py-5 relative z-10 project-h border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">

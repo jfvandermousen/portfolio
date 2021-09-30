@@ -4,7 +4,7 @@ import logo from '../logo.png';
 
 export default function Footer() {
     return (
-        <div className="footer py-10  mt-20">
+        <div className="footer py-10  mt-10">
             <div className="footer-wrap container mx-auto px-8">
                 <div className="flex flex-row items-center">
                     <div className="logo-footer mr-2">
