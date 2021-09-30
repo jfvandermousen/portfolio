@@ -44,13 +44,13 @@ export const projects = [
     },
     {
       id: 5,
-      title: "The open",
-      subtitle: "Wordpress",
-      catgeory :"wordpress",
+      title: "Blog Page",
+      subtitle: "Next / React",
+      catgeory :"Next",
       description:
-        "Woocommerce website with custom child theme. Use of Genesis framework and Elementor for client",
-       image: "./img/the-open.jpg",
-      link: "",
+        "Blog page created with Next.js and React. Deployed on Vercel.",
+        image: "./img/blog.png",
+      link: "https://next-blogpage.vercel.app/",
     },
     {
       id: 6,
@@ -60,6 +60,16 @@ export const projects = [
       description: "Wordpress website with custom child theme. Use of Genesis framework and Elementor for client ",
       image: "./img/regale.jpg",
       link: "https://regalenetwork.eu",
+    },
+    {
+      id: 7,
+      title: "The open",
+      subtitle: "Wordpress",
+      catgeory :"wordpress",
+      description:
+        "Woocommerce website with custom child theme. Use of Genesis framework and Elementor for client",
+       image: "./img/the-open.jpg",
+      link: "",
     },
 
   ];
