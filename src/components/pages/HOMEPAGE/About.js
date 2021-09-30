@@ -27,7 +27,7 @@ export default function About() {
 
 
     return (
-        <div className="about-block">
+        <div className="about-block mb-12">
         <section className="mb-8"> 
             <div className="mb-2"><h3 className="text-2xl mb-4 lg:text-3xl">$whoami</h3></div>
             <div className="intro " > 
