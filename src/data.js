@@ -61,47 +61,17 @@ export const projects = [
       image: "./img/regale.jpg",
       link: "https://regalenetwork.eu",
     },
-    {
-      id: 7,
-<<<<<<< HEAD
-      title: "Pinning Travel Map",
-      subtitle: "MERN Stack",
-      catgeory :"WebDev",
-      description:
-        "Map pinning travel map app using React hooks, Mapbox, Express, and MongoDB.",
-      image: "./img/travel-map.png",
-      link: "",
-    },
-    {
-      id: 7,
-      title: "ImmoEliza",
-      subtitle: "Prediction API",
-      catgeory :"APP",
-      description:
-        "Creation of a form with an API allowing to predict the price of a house. Project realized with the R&D/AI department of Becode",
-      image: "./img/aimmo.png",
-      link: "",
-    },
-    {
-      id: 8,
-      title: "RegALE",
-      subtitle: "Wordpress",
-      catgeory :"wordpress",
-      description: "Wordpress website with custom child theme. Use of Genesis framework and Elementor for client ",
-      image: "./img/blog.png",
-      link: "",
-    },
 
-=======
+      {
+        id: 8,
       title: "The open",
       subtitle: "Wordpress",
       catgeory :"wordpress",
       description:
         "Woocommerce website with custom child theme. Use of Genesis framework and Elementor for client",
        image: "./img/the-open.jpg",
-      link: "",
-    },
->>>>>>> scroll-projects
+       link: "",
+      }
 
   ];
 
